@@ -5,6 +5,7 @@ import DirectionButton from './direction_button';
 
 const Carousel = props => {
   const [ order, setOrder ] = useState([0, 1, 2, 3, 4]);
+
   const rotate = (direction, count) => {
     if (direction === 'left') {
       rotateLeft(count);

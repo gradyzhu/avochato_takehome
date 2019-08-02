@@ -4,8 +4,8 @@
 
 #### Installation
 
-`npm install`
-`npm start`
+`npm install --prefix avochato_part_1`
+`npm start --prefix avochato_part_1`
 
 #### Process
 
@@ -13,7 +13,6 @@ My thinking for this portion of the challenge was to keep state at the top level
 
 #### Features
 
-* Interval Rotations
 * Left / Right Rotations
 * Rotation to Selected Image
 * Desktop / Mobile friendly Resizing

@@ -13,8 +13,12 @@ h1 {
   font-size: 22px;
   font-family: helvetica;
   color: rgb(68, 68, 68);
-  
 }
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 img {
   height: 70vh;
   object-fit: cover;
