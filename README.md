@@ -1,6 +1,6 @@
 # avochato_takehome
 
-## Part 1 (React JS)
+## Part 1 - React.js
 
 ### Installation
 
@@ -21,8 +21,9 @@ My thinking for this portion of the challenge was to keep state at the top level
 ### Challenges
 
 * Deploying to Github Pages
+* Animations
 
-### Part 2 (Vanilla JS)
+## Part 2 - Vanilla JS
 
 ### [Live Demo](https://gradyzhu.github.io/avochato_takehome/)
 
