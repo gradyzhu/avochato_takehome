@@ -1,5 +1,5 @@
-import { carousel, offset, srcs } from "./dom_elements.js.js.js";
-import { animateOpacityOn, animateOpacityOff, animatePosition } from "./animate_css.js.js.js";
+import { carousel, offset } from "./dom_elements.js";
+import { animateOpacityOn, animateOpacityOff, animatePosition } from "./animate_css.js";
 // state
 
 const INTERVALTIME = 3000;
