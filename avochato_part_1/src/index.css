@@ -42,6 +42,7 @@ button:active {
   justify-content: flex-start;
   align-items: center;
   height: 70vh;
+  transition: 0s;
 }
 
 .carousel-wrap {
@@ -54,15 +55,14 @@ button:active {
   margin: 0px;
   min-width: 200px;
   width: 400px;
-  overflow: hidden;
-  /* transition: 0s; */
+  /* overflow: hidden; */
+  transition: 0s;
   border-radius: 3px;
 }
 
 .image {
   min-width: 200px;
   width: 400px;
-  transition: transform 1s;
 }
 
 .image-button {
