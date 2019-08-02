@@ -5,6 +5,7 @@
 #### Installation
 
 `npm install --prefix avochato_part_1`
+
 `npm start --prefix avochato_part_1`
 
 #### Process
@@ -25,7 +26,7 @@ My thinking for this portion of the challenge was to keep state at the top level
 
 ### Part 2 (Vanilla JS)
 
-###[DEMO](https://gradyzhu.github.io/avochato_takehome/)
+### [DEMO](https://gradyzhu.github.io/avochato_takehome/)
 
 #### Process
 
