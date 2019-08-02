@@ -32,9 +32,9 @@ My thinking for this portion of the challenge was to keep state at the top level
 
 The creation of this carousel required me to track the `imageOrder`, `imagePositions`, and the `rotationCount` that have passed.  
 
-The logic behind the rotations can be simplified into 3 setps.
+The logic behind the rotations can be simplified into 3 steps.
 
-1. Move all elements in a direction by a number of pixels (the `offest` or width of the photo).
+1. Move all elements in a direction by a number of pixels (the `offset` or width of the photo).
 
 2. Depending on direction, shift the front most element to the back or vice versa.
 
@@ -42,7 +42,7 @@ The logic behind the rotations can be simplified into 3 setps.
 
 #### Rotating to Image
 
-My strategy to rotate to a specific image can be broken down into two steps.
+My strategy to rotate to a specific image can be broken down into 2 steps.
 
 1. Find the number of rotations `n` from center.
 2. Execute a rotation `n` number of times.
