@@ -1,4 +1,4 @@
-import { rotateLeft, rotateRight, rotateToImage } from './controls.js';
+import { rotateLeft, rotateRight, rotateToImage } from './controls.js.js';
 
 export const srcs = {
   0: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",

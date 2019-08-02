@@ -9,6 +9,12 @@ ul {
   margin: 0;
 }
 
+h1 {
+  font-size: 22px;
+  font-family: helvetica;
+  color: rgb(68, 68, 68);
+  
+}
 img {
   height: 70vh;
   object-fit: cover;
@@ -55,7 +61,7 @@ button:active {
   margin: 0px;
   min-width: 200px;
   width: 400px;
-  /* overflow: hidden; */
+  overflow: hidden;
   transition: 0s;
   border-radius: 3px;
 }
@@ -77,4 +83,16 @@ button:active {
   width: 40px;
   height: 80px;
   margin: 6px;
+}
+
+.link-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(109, 131, 255);
+}
+
+.link-button:active {
+  background-color: rgb(91, 115, 255);
 }

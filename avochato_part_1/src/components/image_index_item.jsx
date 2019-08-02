@@ -3,12 +3,11 @@ import { imageSrcs } from '../imageSrcs.js';
 
 const ImageIndexItem = props => {
   const { id } = props;
+  const src = imageSrcs[Number(id)];
 
   return (
     <li id={id} className={"image-container"}>
-      <img 
-        className="image"
-        src={imageSrcs[Number(id)]}>
+      <img className="image" src={src} >
       </img>
     </li>
   )

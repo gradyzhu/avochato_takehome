@@ -1,5 +1,5 @@
-import { carousel, offset, srcs } from "./dom_elements.js";
-import { animateOpacityOn, animateOpacityOff, animatePosition } from "./animate_css.js";
+import { carousel, offset, srcs } from "./dom_elements.js.js.js";
+import { animateOpacityOn, animateOpacityOff, animatePosition } from "./animate_css.js.js.js";
 // state
 
 const INTERVALTIME = 3000;
@@ -75,11 +75,11 @@ const resetInt = () => {
 
 const rotateCarousel = (count, rotateFunction) => {
   let timer = 0;
-  const offset = 1000;
+  const addedTime = 1000;
 
   for (let i = 0; i < count; i++) {
     setTimeout(rotateFunction, timer);
-    timer += offset;
+    timer += addedTime;
   }
 };
 
