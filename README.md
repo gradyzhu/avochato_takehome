@@ -25,11 +25,7 @@ My thinking for this portion of the challenge was to keep state at the top level
 
 ## Part 2 - Vanilla JS
 
-<<<<<<< HEAD
-### [DEMO](https://gradyzhu.github.io/avochato_takehome/)
-=======
 ### [Live Demo](https://gradyzhu.github.io/avochato_takehome/)
->>>>>>> 06e5b2a5ce8b02c54f93a6802a099df8650e5cca
 
 ### Process
 
